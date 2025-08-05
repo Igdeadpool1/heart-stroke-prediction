@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model = pickle.load(open('stroke_model(2).pkl', 'rb'))  # adjust the file path if needed
+model = pickle.load(open('stroke_model (2).pkl', 'rb'))  # adjust the file path if needed
 
 # App title
 st.title("🧠 Stroke Prediction App")
